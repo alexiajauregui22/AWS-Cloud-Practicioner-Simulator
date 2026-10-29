@@ -1,0 +1,32 @@
+/*
+ * Tokens de diseño
+ * Paleta pedida: #0d0a1a #2e1a47 #6b1c2a #c9a227 #f0d060
+ */
+@theme {
+  --color-abyss: #0d0a1a;
+  --color-plum: #2e1a47;
+  --color-plum-deep: #1c1030;
+  --color-wine: #6b1c2a;
+  --color-wine-soft: #e6a4ae;
+  --color-gilt: #c9a227;
+  --color-gilt-pale: #f0d060;
+  --color-ivory: #efe7d6;
+  --color-mist: rgba(239, 231, 214, 0.64);
+  --color-faint: rgba(239, 231, 214, 0.42);
+  --color-hairline: rgba(240, 208, 96, 0.14);
+  --color-hairline-strong: rgba(240, 208, 96, 0.32);
+
+  /* variables que usan los componentes vendorizados de shadcn */
+  --color-background: var(--color-abyss);
+  --color-foreground: var(--color-ivory);
+  --color-muted-foreground: var(--color-mist);
+
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Manrope Variable", "Manrope", system-ui, sans-serif;
+
+  --radius-panel: 22px;
+  --radius-tile: 14px;
+  --radius-chip: 999px;
+
+  --ease-out-soft: cubic-bezier(0.23, 1, 0.32, 1);
+}
